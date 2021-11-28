@@ -1,0 +1,28 @@
+
+/* footer */
+footer{
+    height: 150px;
+    background-color: lightcoral;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.social-media-footer{
+    text-align: center;
+
+}
+
+.social-media-footer li{
+    display: inline;
+    padding-bottom: 50px;
+}
+
+.social-media-footer i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    
+}
