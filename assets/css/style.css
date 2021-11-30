@@ -106,28 +106,33 @@ div > p {
 
 /*books*/
 
+#series-title{
+    clear: both;
+    position: relative;
+    height: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+section{
+    display: block;
+}
+
 #books {
     
         clear: both;
-        line-height: 10px;
-        column-count: 4;
+        line-height: 0;
+        column-count: 5;
         column-gap: 5px;
-        padding: 40px 0;
-        text-align: center;
-        
-    }
+        margin-left: auto;
+        margin-right: auto;   
+        }
     
     #books img{
         width: 100%;
-        margin: 5%;
-        
+        margin: 5%;        
     }
 
-    #books a{
-        text-decoration: none;  
-        font-size:xx-large ;   
-
-    }
 
 /* footer */
 footer{
