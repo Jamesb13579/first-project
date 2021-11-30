@@ -105,11 +105,23 @@ div > p {
 
 
 /*books*/
+
+.series-title{
+    clear: both;
+    position: relative;
+    height: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #30313c;
+    padding-top: 75px;
+    font-size: xx-large;
+    
+}
 section{
     display: block;
 }
 
-#books {
+.books {
     
         clear: both;
         line-height: 0;
@@ -119,7 +131,7 @@ section{
         margin-right: auto;   
         }
     
-    #books img{
+.books img{
         width: 100%;
         margin: 5%;        
     }
