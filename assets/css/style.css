@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #f1e8c9;
+    background-color: #E1DFD9;
 }
 
 /*header*/
@@ -14,7 +14,7 @@ header{
     clear: both;
     position: relative;
     height: 150px;
-    background-color: #9a8e8f;
+    background-color: #ffffff;
 }
 
 
@@ -24,7 +24,7 @@ nav{
 }
 #menu a{
     text-decoration: none;
-    color: #f1e8c9;
+    color: #30313c;
     font-size: 150%;
 }
 
@@ -36,7 +36,7 @@ nav{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #f1e8c9;
+    border-bottom: 1px solid #30313c;
 }
 
 
@@ -50,7 +50,7 @@ nav{
     margin-right: 7%;
 }    
 
-}
+
 .social-media-top{
     text-align: right;
     display: inline;
@@ -74,7 +74,7 @@ nav{
 }
 
 .active{
-    border-bottom: 1px solid #f1e8c9;
+    border-bottom: 1px solid #30313c;
 }
 
 /* author image*/
@@ -85,6 +85,7 @@ nav{
     margin: 50px;
     position: relative;
     padding: 0 30%;
+    border-radius: 50%;
 }
 
 /*about author section*/
@@ -101,19 +102,46 @@ div > p {
     text-decoration: underline;
 
 }
+
+
+/*books*/
+
+#books {
+    
+        clear: both;
+        line-height: 10px;
+        column-count: 4;
+        column-gap: 5px;
+        padding: 40px 0;
+        text-align: center;
+        
+    }
+    
+    #books img{
+        width: 100%;
+        margin: 5%;
+        
+    }
+
+    #books a{
+        text-decoration: none;  
+        font-size:xx-large ;   
+
+    }
+
 /* footer */
 footer{
     clear: both;
     position: relative;
     height: 150px;
-    background-color: #9a8e8f;
+    background-color: #ffffff;
     
 }
 
 footer p{
     text-align: center;
     padding-top: 50px;
-    color: #f1e8c9;
+    color: #30313c;
 }
 
 .social-media-footer{
