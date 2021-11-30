@@ -105,15 +105,6 @@ div > p {
 
 
 /*books*/
-
-#series-title{
-    clear: both;
-    position: relative;
-    height: 150px;
-    background-color: #ffffff;
-    text-align: center;
-    
-}
 section{
     display: block;
 }
