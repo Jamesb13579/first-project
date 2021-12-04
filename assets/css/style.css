@@ -5,7 +5,14 @@
 }
 
 body{
-    background-color: #E1DFD9;
+    background-image: url(../images/background1.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 900px;
+    background-attachment:scroll;
+    background-color: #3a372e;
+    
 }
 
 /*header*/
@@ -40,9 +47,10 @@ nav{
 }
 
 
-.logo{
-    display: inline-block;
+#logo{
+    float: left;
     position: relative;
+    
 }
 
 .social{
@@ -125,7 +133,7 @@ section{
     
         clear: both;
         line-height: 0;
-        column-count: 5;
+        column-count: 8;
         column-gap: 5px;
         margin-left: auto;
         margin-right: auto;   
@@ -135,6 +143,10 @@ section{
         width: 100%;
         margin: 5%;        
     }
+
+img{ max-height: 189px;
+
+}
 
 
 /*contact*/
@@ -155,6 +167,7 @@ form h2, p{
     line-height: normal;
     box-sizing: border-box;
     border-radius: 2px;
+    height: 40px;
 }
 
 label{
@@ -164,12 +177,12 @@ label{
 
 
 input[type=submit]{
-    margin-left: 20%;
+    margin: 10px 0 0 20%;
     background-color: #ffffff;
-  border: none;
-  color: #30313c;
-  padding: 16px 32px;
-  text-decoration: none;
+    border: none;
+    color: #30313c;
+    padding: 16px 32px;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -188,9 +201,19 @@ input[type=submit]{
     border-radius: 2px;
 }
 
-
-.signup-form, .contact {
+.signup-form{
     color: #30313c;
+    margin: 100px 0;
+}
+
+.contact {
+    color: #30313c;
+    margin-top: 100px;
+}
+
+#ask{
+    margin-bottom: 50px;
+
 }
 /* footer */
 footer{
