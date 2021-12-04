@@ -6,15 +6,21 @@
     border:0;
 }
 
+html{
+    scroll-margin-left: 10px;
+}
+
 body{
     background-image: url(../images/background1.jpg);
     background-position: center; 
+    z-index: -1;
     background-repeat: no-repeat; 
-    background-size: cover; 
-    height: 900px;
+    background-size:cover;
+    width: 100%;
     background-attachment:fixed;
     background-color: #3a372e;
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    margin-right: 2vw;
     
 }
 
@@ -24,6 +30,7 @@ header{
     clear: both;
     position: relative;
     height: 25vw;
+    width: 100%;
     background-color: #ffffff;
 }
 
@@ -54,11 +61,13 @@ nav{
     font-size: 8vw;
     text-align: center;
     font-family: Permanent Marker, sans-serif;
+    color: #30313c;
 }
 
 .social{
     float: right;
     margin-right: 7%;
+    color: #30313c;
 }    
 
 
@@ -125,7 +134,7 @@ div > p {
     text-align: center;
     color: #30313c;
     padding-top: 75px;
-    font-size: xx-large;
+    font-size: 2vw;
     border: #3a372e;
     
 }
@@ -150,39 +159,50 @@ section{
 
 /*contact*/
 
-form h2, p{
+form h2{
     text-align: center;
+    font-size: 4vw
+}
+
+form p{
+    text-align: center;
+    font-size: 3vw
 }
 
 #fname, #lname, #email{
     width: 60%;
-    padding: 0px;
+    padding: 2vw 0;
     margin: 6px 20% 4px;
     border: 1px solid #ccc;
     background: #fafafa;
     color:#30313c;
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 12px;
     line-height: normal;
     box-sizing: border-box;
     border-radius: 2px;
-    height: 40px;
+    height: 3vw;
 }
 
 label{
     margin-left: 20%;
+    font-size: 3vw
 }
 
 
 
 input[type=submit]{
-    margin: 10px 0 0 20%;
+    margin: 2vw 0 0 20%;
     background-color: #ffffff;
     border: none;
     color: #30313c;
     padding: 16px 32px;
     text-decoration: none;
     cursor: pointer;
+    height: 4vw;
+    width: 8vw;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2vw;
 }
 
 #message{
@@ -193,7 +213,7 @@ input[type=submit]{
     border: 1px solid #ccc;
     background: #fafafa;
     color:#30313c;
-    font-family: sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 12px;
     line-height: normal;
     box-sizing: border-box;
@@ -218,7 +238,7 @@ input[type=submit]{
 footer{
     clear: both;
     position: relative;
-    height: 150px;
+    height: 25vw;
     background-color: #ffffff;
     
 }
@@ -227,12 +247,13 @@ footer p{
     text-align: center;
     padding-top: 50px;
     color: #30313c;
+    font-size: 2vw;
 }
 
 .social-media-footer{
     text-align: center;
     padding: 2%;
-
+   
 }
 
 .social-media-footer li{
@@ -241,7 +262,7 @@ footer p{
 }
 
 .social-media-footer i{
-    font-size: 160%;
+    font-size: 4vw;
     margin: 0;
     padding: 0% 5%;
     color: #30313c;  
