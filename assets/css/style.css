@@ -211,8 +211,8 @@ input[type=submit]{
     padding: 16px 32px;
     text-decoration: none;
     cursor: pointer;
-    height: 4vw;
-    width: 8vw;
+    height: 6vw;
+    width: 15vw;
     font-family: "Josefin Sans", sans-serif;
     font-size: 2vw;
 }
