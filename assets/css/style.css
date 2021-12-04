@@ -168,12 +168,16 @@ section{
 
 form h2{
     text-align: center;
-    font-size: 4vw
+    font-size: 4vw;
+    color:#ffffff;
+    margin-bottom: 2vw;
 }
 
 form p{
     text-align: center;
-    font-size: 3vw
+    font-size: 3vw;
+    color: #ffffff;
+    margin-bottom: 2vw;
 }
 
 #fname, #lname, #email{
@@ -184,7 +188,7 @@ form p{
     background: #fafafa;
     color:#30313c;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 12px;
+    font-size: 3vw;
     line-height: normal;
     box-sizing: border-box;
     border-radius: 2px;
@@ -193,7 +197,8 @@ form p{
 
 label{
     margin-left: 20%;
-    font-size: 3vw
+    font-size: 3vw;
+    color:#ffffff;
 }
 
 
@@ -221,7 +226,7 @@ input[type=submit]{
     background: #fafafa;
     color:#30313c;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 12px;
+    font-size: 3vw;
     line-height: normal;
     box-sizing: border-box;
     border-radius: 2px;
@@ -286,7 +291,42 @@ footer p{
 
 @media screen and (max-width: 950px){
 
-    #logo{
-        height: 15vw;
+    #menu li {
+        padding-top: 3vw;
+    }
+    .social-media-top i{
+        padding-top: 3vw;
+    }
+}
+
+/* 750px and less */
+
+@media screen and (max-width: 750px){
+    #
+    menu li {
+        padding-top: 3vw;
+        margin-right: 2vw;
+    }
+    #menu a{
+        font-size: 4vw;
+    }
+    .social-media-top i {
+        padding-top: 3vw;
+        margin-left: 3vw;
+    }
+    .author-image {
+        padding: 0 20%;
+    }
+    div > p {
+        font-size: 4vw;
+    }
+    #about {
+        font-size: 5vw;
+    }
+    footer p {
+        padding-top: 6vw;
+    }
+    .author-image {
+       padding: 0 23%;
     }
 }
