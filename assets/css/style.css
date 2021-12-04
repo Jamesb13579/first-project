@@ -62,6 +62,7 @@ nav{
     text-align: center;
     font-family: Permanent Marker, sans-serif;
     color: #30313c;
+    text-decoration: underline;
 }
 
 .social{
@@ -93,6 +94,10 @@ nav{
     
 }
 
+.social-media-top i:hover{
+    color: crimson;
+}
+
 .active{
     border-bottom: 1px solid #30313c;
 }
@@ -112,15 +117,17 @@ nav{
 
 div > p {
     text-align: center;
-    color: #30313c;
+    color: #ffffff;
     margin: 1% 10%;
+    font-size: 2vw;
+    margin-bottom: 3vw;
 }
 
 #about{
     text-align: center;
-    color: #30313c;
+    color: #ffffff;
     text-decoration: underline;
-
+    font-size: 3vw;
 }
 
 
@@ -267,6 +274,10 @@ footer p{
     padding: 0% 5%;
     color: #30313c;  
     
+}
+
+.social-media-footer i:hover{
+    color: crimson;
 }
 
 /* media Querys*/
