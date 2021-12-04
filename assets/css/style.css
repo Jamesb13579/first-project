@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 900px;
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-color: #3a372e;
     
 }
@@ -20,7 +20,7 @@ body{
 header{
     clear: both;
     position: relative;
-    height: 150px;
+    height: 25vw;
     background-color: #ffffff;
 }
 
@@ -32,7 +32,7 @@ nav{
 #menu a{
     text-decoration: none;
     color: #30313c;
-    font-size: 150%;
+    font-size: 2vw;
 }
 
 #menu li {
@@ -47,10 +47,9 @@ nav{
 }
 
 
-#logo{
-    float: left;
-    position: relative;
-    
+.title{
+    font-size: 8vw;
+    text-align: center;
 }
 
 .social{
@@ -74,7 +73,7 @@ nav{
 
 .social-media-top i{
     float: right;
-    font-size: 160%;
+    font-size: 4vw;
     margin-left: 30px;
     padding-top: 65px; 
     color: #30313c;
@@ -117,12 +116,13 @@ div > p {
 .series-title{
     clear: both;
     position: relative;
-    height: 150px;
+    height: 15vw;
     background-color: #ffffff;
     text-align: center;
     color: #30313c;
     padding-top: 75px;
     font-size: xx-large;
+    border: #3a372e;
     
 }
 section{
@@ -143,11 +143,6 @@ section{
         width: 100%;
         margin: 5%;        
     }
-
-img{ max-height: 189px;
-
-}
-
 
 /*contact*/
 
@@ -247,4 +242,15 @@ footer p{
     padding: 0% 5%;
     color: #30313c;  
     
+}
+
+/* media Querys*/
+
+/* 950 px and less */
+
+@media screen and (max-width: 950px){
+
+    #logo{
+        height: 15vw;
+    }
 }
