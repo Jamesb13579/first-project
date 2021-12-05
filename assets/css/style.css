@@ -42,7 +42,7 @@ nav{
 #menu a{
     text-decoration: none;
     color: #30313c;
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 #menu li {
@@ -136,13 +136,14 @@ div > p {
 .series-title{
     clear: both;
     position: relative;
-    height: 15vw;
+    height: 8vw;
     background-color: #ffffff;
     text-align: center;
     color: #30313c;
-    padding-top: 75px;
+    padding-top: 4vw;
     font-size: 2vw;
     border: #3a372e;
+}
     
 }
 section{
@@ -151,13 +152,13 @@ section{
 
 .books {
     
-        clear: both;
-        line-height: 0;
-        column-count: 8;
-        column-gap: 5px;
-        margin-left: auto;
-        margin-right: auto;   
-        }
+    clear: both;
+    line-height: 0;
+    column-count: 8;
+    column-gap: 1vw;
+    margin-left: auto;
+    margin-right: 2vw;   
+    }
     
 .books img{
         width: 100%;
@@ -249,7 +250,7 @@ input[type=submit]{
 /* footer */
 footer{
     clear: both;
-    position: relative;
+    position:sticky;
     height: 25vw;
     background-color: #ffffff;
     
@@ -264,7 +265,7 @@ footer p{
 
 .social-media-footer{
     text-align: center;
-    padding: 2%;
+    padding: 2% 2% 0%;
    
 }
 
@@ -297,6 +298,9 @@ footer p{
     .social-media-top i{
         padding-top: 3vw;
     }
+    .books {
+        column-count: 6;
+    }
 }
 
 /* 750px and less */
@@ -328,5 +332,15 @@ footer p{
     }
     .author-image {
        padding: 0 23%;
+    }
+    .books {
+        column-count: 4;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .social-media-top i {
+        font-size: 3vw;
     }
 }
