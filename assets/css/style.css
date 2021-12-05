@@ -29,7 +29,7 @@ body{
 header{
     clear: both;
     position: relative;
-    height: 25vw;
+    height: 20vw;
     width: 100%;
     background-color: #ffffff;
 }
@@ -49,11 +49,12 @@ nav{
     float: left;
     list-style-type: none;
     margin-right: 20px;
-    padding-top: 65px;
+    padding-top: 3vw;
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #30313c;
+    border-bottom: 1px solid crimson;
+    color:crimson;
 }
 
 
@@ -89,7 +90,7 @@ nav{
     float: right;
     font-size: 4vw;
     margin-left: 30px;
-    padding-top: 65px; 
+    padding-top: 3vw; 
     color: #30313c;
     
 }
@@ -115,19 +116,27 @@ nav{
 
 /*about author section*/
 
-div > p {
-    text-align: center;
+.about p {
+    display: inline-block;
     color: #ffffff;
     margin: 1% 10%;
     font-size: 2vw;
     margin-bottom: 3vw;
+    background-color: rgba(48, 49, 60, 0.5);
+    padding: 0.5em 0.2em 0.5em 0.5em;
+    border-radius: 20px;
 }
-
-#about{
+.about{
     text-align: center;
+}
+.about h2{
+    display: inline-block;
     color: #ffffff;
     text-decoration: underline;
     font-size: 3vw;
+    background-color: rgba(39, 45, 117, 0.5);
+    padding: 0.5em 0.2em 0.5em 0.5em;
+    border-radius: 20px;
 }
 
 
@@ -142,10 +151,14 @@ div > p {
     color: #30313c;
     padding-top: 4vw;
     font-size: 2vw;
-    border: #3a372e;
-}
+    background-image: url(../images/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+
     
 }
+
 section{
     display: block;
 }
@@ -161,9 +174,24 @@ section{
     }
     
 .books img{
-        width: 100%;
-        margin: 5%;        
+    width: 100%;
+    margin: 5%; 
+}
+
+
+.books img:hover{
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom{
+    from{
+        transform:scale(1)
     }
+    to{
+        transform:scale(1.05)
+    }
+}
 
 /*contact*/
 
@@ -172,7 +200,7 @@ form h2{
     font-size: 4vw;
     color:#ffffff;
     margin-bottom: 2vw;
-}
+    }
 
 form p{
     text-align: center;
@@ -251,7 +279,7 @@ input[type=submit]{
 footer{
     clear: both;
     position:sticky;
-    height: 25vw;
+    height: 20vw;
     background-color: #ffffff;
     
 }
