@@ -375,5 +375,6 @@ footer p{
     }
     .author-image {
         padding: 0 vw;
-    }
+        margin: 7vw;
+    }       
 }
