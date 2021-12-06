@@ -3,7 +3,9 @@
 This author page is a website i have designed to show existing or new fans who the author Frank Tayell is and to give them a greater understanding and knowledge of his work.
 
 The aim for the website is to give fans of Frank Tayell a place to connect with the author. To be able to send direct messages and questions and sign up for newsletters. It is also to increase sales of books as the books page includes all books with links to there amazon sales page to enable easy purchase.
-![](assets/images/.png)
+
+
+![](assets/readme-images/amiresponsive.png)
 
 View live site: https://jamesb13579.github.io/first-project/index.html
 
