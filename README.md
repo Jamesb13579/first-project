@@ -72,7 +72,12 @@ I used icons for social media websites i did this to maintain a clean and intuit
 __Wireframes__
 
 I initailly drew my wireframes out by hand to i could get a more visual idea of what i wanted for my site before i transferred them over to Balsamiq.
-![](assets/images/)
+
+![](assets/readme-images/index.png)
+
+![](assets/readme-images/books.png)
+
+![](assets/readme-images/contact.png)
 
 ## Deployment
 
