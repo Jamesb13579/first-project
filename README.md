@@ -10,7 +10,6 @@ View live site: https://jamesb13579.github.io/first-project/index.html
 ## Table Of Contents
   * [Features](#features)
   * [Design](#design)
-  * [User Stories](#user-stories)
   * [Deployment](#deployment)
   * [Testing](#testing)
   * [Technologies used](#technologies-used)
@@ -73,9 +72,6 @@ __Wireframes__
 I initailly drew my wireframes out by hand to i could get a more visual idea of what i wanted for my site before i transferred them over to Balsamiq.
 ![](assets/images/)
 
-## User Stories
-
-
 ## Deployment
 
 The website was deployed to github pages using the following steps:
@@ -116,11 +112,12 @@ But i have had issues with a  few details of the site when checking mobile respo
 
 __Tools & Media__
 
-- Fonts used supplied by [google fonts](https://https://fonts.google.com/)
+- Fonts used supplied by [Google Fonts](https://https://fonts.google.com/)
 - Images used were supplied by the author.
-- Icons used made available by [fontawesome](https://fontawesome.com)
+- Icons used made available by [Fontawesome](https://fontawesome.com)
 - Color scheme created using the website [Colormind](http://colormind.io/)
 - Images used in this document were screen shot from validators and amiresponsive.
+- converted images with [Cloud Convert](https://cloudconvert.com/)
 
 __Code and Tutorials__
 
