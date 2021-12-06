@@ -351,17 +351,17 @@ footer p{
     .author-image {
         padding: 0 20%;
     }
-    div > p {
-        font-size: 4vw;
-    }
-    #about {
+    .about p {
         font-size: 5vw;
+    }
+    .about h2 {
+        font-size: 6vw;
     }
     footer p {
         padding-top: 6vw;
     }
     .author-image {
-       padding: 0 23%;
+       padding: 0 29vw;
     }
     .books {
         column-count: 4;
