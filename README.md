@@ -1,108 +1,128 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project One: Author page for Frank Tayell
 
-Welcome Jamesb13579,
+This author page is a website i have designed to show existing or new fans who the author Frank Tayell is and to give them a greater understanding and knowledge of his work.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The aim for the website is to give fans of Frank Tayell a place to connect with the author. To be able to send direct messages and questions and sign up for newsletters. It is also to increase sales of books as the books page includes all books with links to there amazon sales page to enable easy purchase.
+![](assets/images/.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+View live site: https://jamesb13579.github.io/first-project/index.html
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+## Table Of Contents
+  * [Features](#features)
+  * [Design](#design)
+  * [User Stories](#user-stories)
+  * [Deployment](#deployment)
+  * [Testing](#testing)
+  * [Technologies used](#technologies-used)
+  * [Credits](#credits)
 ---
+## Features
 
-Happy coding!
+__Navigation__
+The navigation menu bar is on the top left of the home page is an easy way for the user to navigate to their sought after section within the site. To provide users with an introduction to what they can expect to discover on the website, each menu option has been named accordingly to link to its corresponding section. Also included in this section is links to authors Amazon, Goodreads, Facebook and Twitter.
+![](assets/images/)
+
+
+__Home Page__
+The home page has a background image that i have cropped for the front cover of one Frank Tayells books. The image gives the user an idea of the genre of books.
+![](assets/images/)
+
+
+__About Author__
+The about author section was surposed to include an image of the author plus additional information about the author, and books and series he is working on. But when i was speaking to the author he said he prefers to be judged on his work rather tham appearance so i used an image that he uses on his goodreads and amazon instead.
+![](assets/images/)
+
+__Books__
+The books page shows all the authors current books split into series, divided with sextion titles and ordered into release date. The images are all links to the correct amazon sales page.
+![](assets/images/)
+
+__Subscribe__
+The user can subscribe to the authors newsletter as they submit. The user must enter their e-mail address into the input fields for the form to submit. There are prompt messages that appear when this information is not correctly inputted.Currently this goes to code institute file dump.
+![](assets/images/)
+
+__Message the author__
+This section is there to enable direct interaction with author. Requesting First name, Surname, Email and Message details the user can then submit these details. Again there is a prompt message if information is incorrectly inputted. Currently this goes to code institute file dump.
+![](assets/images/)
+
+__Hover__
+Each clickable element on the website changes color and/or underlines when hovered over with the mouse. Aswel as this i have applied a zoom animation to the book elements when they are hovered over to a scale of 1.05.
+
+__Footer__
+In the foot i included a copyright for the authors images as he asked for that to be included and again i linked all his social media.
+![](assets/images/)
+
+
+## Design
+__Theme__
+
+The author mainly writes dystopian novels so i wanted the imagery to suit that. The font that i used is __Josefin Sans__ i felt this suited the style of website i was trying to create, i got the font from [google fonts](https://https://fonts.google.com/).
+
+
+__Color Scheme__
+
+The color scheme was chosen using a complimentry color generator, which i play with until i found the options that seemed right to me.
+
+__Photos and Icons__
+
+I chose images suitable to there author genre and book types plus book cover images.
+
+I used icons for social media websites i did this to maintain a clean and intuitive user experience.
+
+__Wireframes__
+
+I initailly drew my wireframes out by hand to i could get a more visual idea of what i wanted for my site before i transferred them over to Balsamiq.
+![](assets/images/)
+
+## User Stories
+
+
+## Deployment
+
+The website was deployed to github pages using the following steps:
+- Clicked on my repository for first-project. 
+- Clicked settings tab and navigated down to "Pages"
+- Selected "Main" in branch drop down box
+- Clicked "save" which produced the live link which can be viewed here https://jamesb13579.github.io/first-project/index.html
+
+## Testing
+
+I used Dev tools in chrome constantly during the developement of my code to try and fix the style and catch any issues, I committed and detailed as much as possible the changes made to my code. 
+
+__Validator Testing__
+
+HTML: No errors reported
+![](assets/images/)
+
+CSS: No errors reported
+![](assets/images/)
+
+__Lighthouse__
+![](assets/images/)
+
+__Bugs & Fixes__
+No Bugs at time of deployment.
+But i have had issues with a  few details of the site when checking mobile responsiveness, which i have fixed using dev tools and editing code incrimentally until i found the issue.
+
+
+## Technologies used
+
+- HTML5: Used to make the structure and content of the site
+- CSS3: Used to style the site content and appearance
+- GITPOD: Used to code the site
+- GITHUB: Used to store, deploy and host the site
+- Balsamiq Wireframes: Used to draft page design and layout
+
+## Credits
+
+__Tools & Media__
+
+- Fonts used supplied by [google fonts](https://https://fonts.google.com/)
+- Images used were supplied by the author.
+- Icons used made available by [fontawesome](https://fontawesome.com)
+- Color scheme created using the website [Colormind](http://colormind.io/)
+- Images used in this document were screen shot from validators and amiresponsive.
+
+__Code and Tutorials__
+
+- Nav bar and social media code inspired by Code Institute Love Running.
+- W3schools also helped with me learn extra about css floats and styling.
