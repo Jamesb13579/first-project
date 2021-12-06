@@ -373,4 +373,7 @@ footer p{
     .social-media-top i {
         font-size: 5vw;
     }
+    .author-image {
+        padding: 0 vw;
+    }
 }
