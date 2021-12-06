@@ -87,13 +87,21 @@ I used Dev tools in chrome constantly during the developement of my code to try 
 __Validator Testing__
 
 HTML: No errors reported
-![](assets/images/)
+
+![](assets/readme-images/html-validator.png)
 
 CSS: No errors reported
-![](assets/images/)
+
+![](assets/readme-images/css-validator.png)
 
 __Lighthouse__
-![](assets/images/)
+Mobile
+
+![](assets/readme-images/lighthouse-mobile.png)
+
+Desktop
+
+![](assets/readme-images/lighthouse-desktop.png)
 
 __Bugs & Fixes__
 No Bugs at time of deployment.

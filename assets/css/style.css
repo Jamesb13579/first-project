@@ -59,7 +59,7 @@ nav{
 .title{
     font-size: 8vw;
     text-align: center;
-    font-family: Permanent Marker, sans-serif;
+    font-family: "Permanent Marker", sans-serif;
     color: #30313c;
     text-decoration: underline;
 }
@@ -139,7 +139,7 @@ nav{
     clear: both;
     position: relative;
     height: 8vw;
-    background-color: #ffffff;
+    background-color: #5c4a4a;
     text-align: center;
     color: #ffffff;
     padding-top: 4vw;
