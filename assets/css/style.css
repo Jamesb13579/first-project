@@ -9,7 +9,6 @@
 body{
     background-image: url(../images/background1.webp);
     background-position: center; 
-    z-index: -1;
     background-repeat: no-repeat; 
     background-size:cover;
     width: 100%;
@@ -177,6 +176,8 @@ section{
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
+/* animation on book images*/
 
 @keyframes zoom{
     from{
