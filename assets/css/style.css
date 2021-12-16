@@ -5,11 +5,7 @@
     padding:0;
     border:0;
 }
-/*
-html{
-    scroll-margin-left: 10px;
-}
-*/
+
 body{
     background-image: url(../images/background1.webp);
     background-position: center; 
@@ -292,7 +288,7 @@ footer{
 
 footer p{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 4vw;
     color: #30313c;
     font-size: 2vw;
 }
@@ -318,6 +314,21 @@ footer p{
 }
 
 /* media Querys*/
+
+@media screen and (min-width:1400px) {
+    header {
+        height: 15vw;
+    }
+    .social-media-top i {
+        font-size: 3vw;
+    }
+    .title {
+        font-size: 6vw;
+    }
+    #menu a {
+        font-size: 3vw;
+    }
+}
 
 /* 950 px and less */
 
@@ -367,6 +378,8 @@ footer p{
         column-count: 4;
     }
 }
+
+/* media query 425px*/
 
 @media screen and (max-width: 425px){
 
