@@ -159,7 +159,6 @@ section{
 
 .books {
     clear: both;
-    line-height: 0;
     column-count: 8;
     column-gap: 1vw;
     margin-left: auto;
