@@ -159,7 +159,7 @@ section{
 
 .books {
     clear: both;
-    column-count: 8;
+    column-count: 7;
     column-gap: 1vw;
     margin-left: auto;
     margin-right: 2vw;   
@@ -342,7 +342,7 @@ footer p{
         padding-top: 3vw;
     }
     .books {
-        column-count: 6;
+        column-count: 5;
     }
 }
 
