@@ -20,39 +20,57 @@ View live site: https://jamesb13579.github.io/first-project/index.html
 ---
 ## Features
 
-__Navigation__
-The navigation menu bar is on the top left of the home page and is an easy way for the user to navigate to their sought after section within the site. To provide users with an introduction to what they can expect to discover on the website, each menu option has been named accordingly to link to its corresponding section. Also included in this section are links to the authors Amazon, Goodreads, Facebook and Twitter profiles.
-![](assets/images/)
+__Header__
 
+In the Header I have included the authors logo, and underneath that placed the nav bar and linked all his social media.
+
+![](assets/readme-images/header.png)
+
+__Navigation__
+
+The navigation menu bar is on the top left of the home page and is an easy way for the user to navigate to their sought after section within the site. To provide users with an introduction to what they can expect to discover on the website, each menu option has been named accordingly to link to its corresponding section. Also included in this section are links to the authors Amazon, Goodreads, Facebook and Twitter profiles.
+
+![](assets/readme-images/nav.png)
 
 __Home Page__
-The home page has a background image that I have cropped from the front cover of one Frank Tayells books. The image gives the user an idea of the genre of his work.
-![](assets/images/)
 
+The home page has a background image that I have cropped from the front cover of one Frank Tayells books. The image gives the user an idea of the genre of his work.
+
+![](assets/readme-images/home.png)
 
 __About Author__
+
 The about author section was supposed to include an image of the author, plus additional information about the author, and the books and series he is working on. Unfortunately, when I was speaking to the author he said he prefers to be judged on his work rather than appearance so I used an image that he uses on his goodreads and amazon instead.
-![](assets/images/)
+
+![](assets/readme-images/about.png)
 
 __Books__
+
 The books page shows all of the authors current books split into series, divided with section titles and ordered into release date. The images are all links to the correct Amazon sales page.
-![](assets/images/)
+
+![](assets/readme-images/books_layout.png)
 
 __Subscribe__
+
 The user can subscribe to the authors newsletter as they submit. The user must enter their e-mail address into the input fields for the form to submit. There are prompt messages that appear when this information is not correctly inputted. Currently this goes to code institute file dump.
-![](assets/images/)
+
+![](assets/readme-images/subscribe.png)
 
 __Message the author__
+
 This section is there to enable direct interaction with the author. Requesting first name, surname, email and message details the user can then submit these details. Again there is a prompt message if information is incorrectly inputted. Currently this goes to code institute file dump.
-![](assets/images/)
+
+![](assets/readme-images/message.png)
 
 __Hover__
+
 Each clickable element on the website changes color and/or underlines when hovered over with the mouse. Aswell as this I have applied a zoom animation to the book elements when they are hovered over to a scale of 1.05.
 
 __Footer__
-In the footer I have included a copyright for the authors images as he asked for that to be included and again, linked all his social media.
-![](assets/images/)
 
+In the footer I have included a copyright for the authors images as he asked for that to be included and again, linked all his social media.
+
+![](assets/readme-images/footer.png)
 
 ## Design
 __Theme__
