@@ -9,14 +9,54 @@ The aim for the website is to give fans of Frank Tayell a place to connect with 
 View live site: https://jamesb13579.github.io/first-project/index.html
 
 ## Table Of Contents
-  * [Features](#features)
+
+  * [User Stories](#user-stories) 
   * [Design](#design)
-  * [Deployment and Cloning](#deployment-and-cloning)
-  * [Testing](#testing)
+  * [Features](#features)
   * [Technologies used](#technologies-used)
-  * [User Stories](#user-stories)
+  * [Testing](#testing)
+  * [Deployment and Cloning](#deployment-and-cloning)
   * [Credits](#credits)
 ---
+
+## User Stories
+__As a new user__
+
+- I would be like to be able to easily navigate the website.
+- I would like to be able to connect with the Author, by having the ability to send  and questions
+- I woud like to be able to sign up to be able to be updated on new information from the Author.
+
+__As an existing user__
+
+- I would like to see regular updates to book section, to be able to see whem there is a new book.
+- I would like to be able to access this website on the go, so good mobile responsiveness is important.
+
+## Design
+__Theme__
+
+The author mainly writes dystopian novels so I wanted the imagery to suit that. The font that I used is __Josefin Sans__. I felt this suited the style of website I was trying to create, the font is available from [google fonts](https://https://fonts.google.com/).
+
+
+__Color Scheme__
+
+The color scheme was chosen using a complimentry color generator, which I play with until I found the options that seemed right to me.
+
+__Photos and Icons__
+
+I chose images suitable to the authors genre and book types plus book cover images.
+
+I used icons for social media websites, I did this to maintain a clean and intuitive user experience.
+
+__Wireframes__
+
+I initailly drew my wireframes out by hand so I could get a more visual idea of what I wanted for my site before I transferred them over to Balsamiq.
+
+![](docs/index.png)
+
+![](docs/books.png)
+
+![](docs/contact.png)
+
 ## Features
 
 __Header__
@@ -71,31 +111,41 @@ In the footer I have included a copyright for the authors images as he asked for
 
 ![](docs/footer.png)
 
-## Design
-__Theme__
+## Technologies used
 
-The author mainly writes dystopian novels so I wanted the imagery to suit that. The font that I used is __Josefin Sans__. I felt this suited the style of website I was trying to create, the font is available from [google fonts](https://https://fonts.google.com/).
+- HTML5: Used to make the structure and content of the site
+- CSS3: Used to style the site content and appearance
+- GITPOD: Used to code the site
+- GITHUB: Used to store, deploy and host the site
+- Balsamiq Wireframes: Used to draft page design and layout
 
+## Testing
 
-__Color Scheme__
+I used Dev tools in chrome constantly during the development of my code to try and fix the style and catch any issues, I committed and detailed as much as possible of the changes made to my code. 
 
-The color scheme was chosen using a complimentry color generator, which I play with until I found the options that seemed right to me.
+__Validator Testing__
 
-__Photos and Icons__
+HTML: No errors reported
 
-I chose images suitable to the authors genre and book types plus book cover images.
+![](docs/html_validator.png)
 
-I used icons for social media websites, I did this to maintain a clean and intuitive user experience.
+CSS: No errors reported
 
-__Wireframes__
+![](docs/css_validator.png)
 
-I initailly drew my wireframes out by hand so I could get a more visual idea of what I wanted for my site before I transferred them over to Balsamiq.
+__Lighthouse__
+Mobile
 
-![](docs/index.png)
+![](docs/lighthouse_mobile.png)
 
-![](docs/books.png)
+Desktop
 
-![](docs/contact.png)
+![](docs/lighthouse_desktop.png)
+
+__Bugs & Fixes__
+No Bugs at time of deployment.
+But I have had issues with a few details of the site when checking mobile responsiveness, which I have fixed using dev tools and editing code incrimentally until I found the issue.
+
 
 ## Deployment and Cloning
 
@@ -114,55 +164,6 @@ In the File menu, click Clone Repository.
 - Choose the first-project repository from the list of options to clone.
 - Click choose and navigate to a local path where you want to clone the repository.
 - Click Clone.
-
-## Testing
-
-I used Dev tools in chrome constantly during the development of my code to try and fix the style and catch any issues, I committed and detailed as much as possible of the changes made to my code. 
-
-__Validator Testing__
-
-HTML: No errors reported
-
-![](docs/html-validator.png)
-
-CSS: No errors reported
-
-![](docs/css-validator.png)
-
-__Lighthouse__
-Mobile
-
-![](docs/lighthouse-mobile.png)
-
-Desktop
-
-![](docs/lighthouse-desktop.png)
-
-__Bugs & Fixes__
-No Bugs at time of deployment.
-But I have had issues with a few details of the site when checking mobile responsiveness, which I have fixed using dev tools and editing code incrimentally until I found the issue.
-
-
-## Technologies used
-
-- HTML5: Used to make the structure and content of the site
-- CSS3: Used to style the site content and appearance
-- GITPOD: Used to code the site
-- GITHUB: Used to store, deploy and host the site
-- Balsamiq Wireframes: Used to draft page design and layout
-
-## User Stories
-
-__As a new user__
-
-- I would be like to be able to easily navigate the website.
-- I would like to be able to connect with the Author, by having the ability to send  and questions
-- I woud like to be able to sign up to be able to be updated on new information from the Author.
-
-__As an existing user__
-
-- I would like to see regular updates to book section, to be able to see whem there is a new book.
-- I would like to be able to access this website on the go, so good mobile responsiveness is important.
 
 ## Credits
 
