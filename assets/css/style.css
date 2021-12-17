@@ -210,7 +210,7 @@ form p{
     margin-bottom: 2vw;
 }
 
-#fname, #lname, #email{
+#fname, #lname, #email, #email-signup{
     width: 60%;
     padding: 2vw 0;
     margin: 6px 20% 4px;
@@ -346,9 +346,9 @@ footer p{
     }
 }
 
-/* 750px and less */
+/* 800px and less */
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
     #menu li {
         padding-top: 3vw;
         margin-right: 2vw;
