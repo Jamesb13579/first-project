@@ -5,7 +5,7 @@ This author page is a website I have designed to show existing or new fans who t
 The aim for the website is to give fans of Frank Tayell a place to connect with the author. To be able to send direct messages and questions and sign up for newsletters. It is also to increase sales of books as the books page includes all of his books with links to their Amazon sales page to enable easy purchase.
 
 
-![](assets/readme-images/amiresponsive.png)
+![](docs/amiresponsive.png)
 
 View live site: https://jamesb13579.github.io/first-project/index.html
 
@@ -24,43 +24,43 @@ __Header__
 
 In the Header I have included the authors logo, and underneath that placed the nav bar and linked all his social media.
 
-![](assets/readme-images/header.png)
+![](docs/header.png)
 
 __Navigation__
 
 The navigation menu bar is on the top left of the home page and is an easy way for the user to navigate to their sought after section within the site. To provide users with an introduction to what they can expect to discover on the website, each menu option has been named accordingly to link to its corresponding section. Also included in this section are links to the authors Amazon, Goodreads, Facebook and Twitter profiles.
 
-![](assets/readme-images/nav.png)
+![](docs/nav.png)
 
 __Home Page__
 
 The home page has a background image that I have cropped from the front cover of one Frank Tayells books. The image gives the user an idea of the genre of his work.
 
-![](assets/readme-images/home.png)
+![](docs/home.png)
 
 __About Author__
 
 The about author section was supposed to include an image of the author, plus additional information about the author, and the books and series he is working on. Unfortunately, when I was speaking to the author he said he prefers to be judged on his work rather than appearance so I used an image that he uses on his goodreads and amazon instead.
 
-![](assets/readme-images/about.png)
+![](docs/about.png)
 
 __Books__
 
 The books page shows all of the authors current books split into series, divided with section titles and ordered into release date. The images are all links to the correct Amazon sales page.
 
-![](assets/readme-images/books_layout.png)
+![](docs/books_layout.png)
 
 __Subscribe__
 
 The user can subscribe to the authors newsletter as they submit. The user must enter their e-mail address into the input fields for the form to submit. There are prompt messages that appear when this information is not correctly inputted. Currently this goes to code institute file dump.
 
-![](assets/readme-images/subscribe.png)
+![](docs/subscribe.png)
 
 __Message the author__
 
 This section is there to enable direct interaction with the author. Requesting first name, surname, email and message details the user can then submit these details. Again there is a prompt message if information is incorrectly inputted. Currently this goes to code institute file dump.
 
-![](assets/readme-images/message.png)
+![](docs/message.png)
 
 __Hover__
 
@@ -70,7 +70,7 @@ __Footer__
 
 In the footer I have included a copyright for the authors images as he asked for that to be included and again, linked all his social media.
 
-![](assets/readme-images/footer.png)
+![](docs/footer.png)
 
 ## Design
 __Theme__
@@ -92,11 +92,11 @@ __Wireframes__
 
 I initailly drew my wireframes out by hand so I could get a more visual idea of what I wanted for my site before I transferred them over to Balsamiq.
 
-![](assets/readme-images/index.png)
+![](docs/index.png)
 
-![](assets/readme-images/books.png)
+![](docs/books.png)
 
-![](assets/readme-images/contact.png)
+![](docs/contact.png)
 
 ## Deployment and Cloning
 
@@ -124,20 +124,20 @@ __Validator Testing__
 
 HTML: No errors reported
 
-![](assets/readme-images/html-validator.png)
+![](docs/html-validator.png)
 
 CSS: No errors reported
 
-![](assets/readme-images/css-validator.png)
+![](docs/css-validator.png)
 
 __Lighthouse__
 Mobile
 
-![](assets/readme-images/lighthouse-mobile.png)
+![](docs/lighthouse-mobile.png)
 
 Desktop
 
-![](assets/readme-images/lighthouse-desktop.png)
+![](docs/lighthouse-desktop.png)
 
 __Bugs & Fixes__
 No Bugs at time of deployment.
