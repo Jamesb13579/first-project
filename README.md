@@ -4,7 +4,6 @@ This author page is a website I have designed to show existing or new fans who t
 
 The aim for the website is to give fans of Frank Tayell a place to connect with the author. To be able to send direct messages and questions and sign up for newsletters. It is also to increase sales of books as the books page includes all of his books with links to their Amazon sales page to enable easy purchase.
 
-
 ![](docs/amiresponsive.png)
 
 View live site: https://jamesb13579.github.io/first-project/index.html
@@ -174,9 +173,11 @@ __Tools & Media__
 - Icons used made available by [Fontawesome](https://fontawesome.com)
 - Color scheme created using the website [Colormind](http://colormind.io/)
 - Images used in this document were screen shot from validators and amiresponsive.
-- converted images with [Cloud Convert](https://cloudconvert.com/)
+- Converted images with [Cloud Convert](https://cloudconvert.com/)
 
 __Code and Tutorials__
 
 - Nav bar and social media code inspired by Code Institute Love Running.
 - W3schools also helped with me learn extra about css floats and styling.
+- Learnt about fluid typography with [Uxdesign](https://bootcamp.uxdesign.cc/how-to-create-truly-fluid-typography-online-efe5dcf58a9c)
+- Learnt how to make a [Favicon](https://www.youtube.com/watch?v=kEf1xSwX5D8) 
